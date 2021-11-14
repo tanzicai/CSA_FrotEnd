@@ -1,0 +1,225 @@
+.HomaPage{
+    background-image: url(../img/sign_bg.db29b0fb.png);
+    background-repeat: no-repeat;
+    background-color: #b8e5f8;
+    text-align: center;
+    background-size: conver;
+    width: 100%;
+    /* vh：视口高度，100vh指铺满整个视口高度 */
+    height: 100vh;
+
+}
+
+#login_zhihu {
+    width: 130px;
+    margin-bottom: 25px;
+}
+.main{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+
+}
+.main .form .form_content{
+    margin: 0 0;
+    padding: 0 24px 10px;
+}
+
+.main .form{
+    margin: 0 auto;
+    
+    border-radius: 5px;
+    text-align: left;
+   background-color: #ffffff;
+}
+
+
+.login_way_choice{
+    height: 93px;
+    border: transparent 1px ;
+    background-color: transparent;
+}
+
+#login_way_checked{
+    font-weight: bolder;
+}
+#login_way_checked::after{
+    display: block;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: #06f;
+
+}
+
+.form .login_way_choice div{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 14px;
+}
+.form .login_imformation{
+    margin-top: 7px;
+    font-size: 14px;
+    color: #8590a6;
+    border-bottom: 1px #ebebeb solid;
+}
+ .login_imformation div{
+    margin-bottom: 23px;
+    height: 36px;
+}
+
+.form .login_imformation span{
+    width: 1px;
+    height: 22px;
+    margin: 0 12px;
+    border: 1px #ebebeb solid;
+}
+.form .login_imformation .contry{
+    color: #8590a6;
+    margin-left: 8px;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent solid;
+    font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+.input_underline,.input_underline_2{
+border-bottom:#ebebeb  solid 1px;
+}
+.main .form .login_imformation .input_underline_2,.require_button_1{
+    margin-bottom: 10px;
+}
+.main .form .login_imformation #require_button_audio{
+    margin-bottom: 10px;
+}
+.main .form .login_imformation .require_button_1{
+    color: #a390a6;
+}
+
+.main .login_imformation .require_button,.require_button_1{
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: #175199;
+}
+
+.main .login_imformation .require_button_1{
+   
+}
+
+.main .form .login_imformation #submit{
+    height: 40px;
+    width: 100%;
+    border-radius:5px;
+    border: none;
+    background-color: #0066ff;
+    color: #ffffff;
+    
+}
+#rule{
+    font-size: 13px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    line-height: 16px;
+}
+
+.login_other_way{
+    padding: 0 24px 0;
+    height: 60px;
+    display: inline-block;
+    
+}
+
+.login_other_way span{
+    font-size: 15px;
+    margin-right: 40px;
+    line-height: 50px;
+    height:50px;
+    color: #808080;
+}
+.login_other_way button{
+    display: inline-flex;    
+    align-items: center;
+    cursor: pointer;
+    margin-left: 16px;
+    border: none;
+    line-height: 60px;
+    background-color: transparent;
+    color:#8590a6;
+    font-size: 15px;
+    font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+.login_other_way button svg{
+    margin-right: 5px;
+}
+.other_imformation{
+    background-color: #f6f6f6;
+    height: 60px;
+    border: none;
+    
+    padding: 0 24px;
+    text-align: center;
+    font-family: Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+.other_imformation button{
+    font: inherit;
+    border: none;
+    background-color: transparent;
+    display: inline-flex;    
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    color: #0066ff;
+}
+.other_imformation div{
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+#dinggou{
+ float: left;
+
+}
+
+#download{
+    float: right;
+}
+
+#dinggou svg{
+    margin-right: 10px;
+}
+
+#download svg{
+    margin-right: 10px;
+}
+
+.other_imformation span{
+
+    width: 1px;
+    height: 22px;
+    
+    border: 1px #ebebeb solid;
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    width: 100%;
+}
+footer div{
+    line-height: 24px;
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+    font-weight: 800px;
+}

@@ -1,0 +1,56 @@
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    margin: 0 100px;
+}
+.flex-box div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border:2px black solid;
+    width: 350px;
+    height: 370px;
+    margin-top: 10px;
+}
+
+.flex-box img{
+   
+}
+
+.item ol{
+    font-weight: bold;
+
+}
+
+.table table{
+    margin: 0 auto;
+    width: 90%;
+  border-collapse: collapse;
+}
+.table table th{
+    font-weight: bold;
+    text-align: start;
+    color: #fff;
+    background-color: black;
+}
+
+.table table .include{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(161, 156, 156);
+}
+
+table：first-child tr{
+    border-top: 2px rgb(161, 156, 156) solid;
+}
+
+.table table .tr:last-child td ,.table table .tr:last-child th{
+    border-right: 2px rgb(161, 156, 156) solid;
+}
+table td,table th {
+    border-left: 2px rgb(161, 156, 156) solid;
+    border-bottom: 2px rgb(161, 156, 156) solid;
+}
+
